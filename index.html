@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>INCLUSIVO - Formación Integral</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfcf7;
+      color: #333;
+    }
+    header {
+      background-color: #4d774e;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #e3e3e3;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #4d774e;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1527979809431-f217207a1804') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+    }
+    form {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: auto;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    form button {
+      background-color: #4d774e;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #3b5f3b;
+    }
+    footer {
+      background-color: #4d774e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>INCLUSIVO</h1>
+    <p>Formación integral para un mundo diverso</p>
+  </header>
+
+  <nav>
+    <a href="#quienes-somos">Quiénes somos</a>
+    <a href="#servicios">Capacitaciones</a>
+    <a href="#enfoque">Nuestro enfoque</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Capacitación con enfoque étnico y psicosocial</h1>
+  </div>
+
+  <section id="quienes-somos">
+    <h2>Quiénes somos</h2>
+    <p>Somos una empresa dedicada a ofrecer formación con enfoque diferencial, reconociendo la diversidad étnica y promoviendo la inclusión psicosocial en todos nuestros procesos educativos.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Capacitaciones</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Talleres interculturales</h3>
+        <p>Espacios de aprendizaje centrados en el respeto y valoración de las culturas originarias.</p>
+      </div>
+      <div class="card">
+        <h3>Salud mental comunitaria</h3>
+        <p>Capacitación en herramientas psicosociales con enfoque colectivo e inclusivo.</p>
+      </div>
+      <div class="card">
+        <h3>Formación de formadores</h3>
+        <p>Procesos pedagógicos para líderes comunitarios, docentes y agentes sociales.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="enfoque">
+    <h2>Nuestro enfoque</h2>
+    <p>Creemos en una educación transformadora que reconoce las raíces culturales, valora las historias colectivas y fortalece el bienestar emocional y social. Nuestra metodología combina saberes ancestrales y técnicas psicosociales contemporáneas.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form action="https://getform.io/f/bxoyenla" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+    <p style="text-align: center; margin-top: 1rem;">También puedes escribirnos a: <strong>info@inclusivo.org</strong> o al WhatsApp: <strong>+57 300 123 4567</strong></p>
+    <p style="text-align: center;">Síguenos en redes sociales: <strong>@inclusivo_org</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 INCLUSIVO. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
